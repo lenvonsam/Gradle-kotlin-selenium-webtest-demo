@@ -14,9 +14,9 @@ Just a demo for web-driver-test used by  gradle、kotlin and selenium.
 
 * [Config gradle with kotlin](https://kotlinlang.org/docs/reference/using-gradle.html)
 
-* Selenium Maven dependence
+* Selenium Gradle dependence
 
-  ```
+  ```groovy
   //selenium plugin
   compile("org.seleniumhq.selenium:selenium-firefox-driver:3.2.0")
   compile("org.seleniumhq.selenium:selenium-server:3.2.0")
@@ -27,7 +27,7 @@ Just a demo for web-driver-test used by  gradle、kotlin and selenium.
 
 * Programing selenium code
 
-  ```
+  ```kotlin
   fun main(args: Array<String>) {
 
   	// tell application where is geckodriver
@@ -64,3 +64,4 @@ Just a demo for web-driver-test used by  gradle、kotlin and selenium.
 
 
 > NOTE: This project is Apache 2.0 licensed.
+
