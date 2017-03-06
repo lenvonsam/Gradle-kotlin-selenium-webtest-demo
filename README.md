@@ -30,7 +30,7 @@ Just a demo for web-driver-test used by  gradle、kotlin and selenium.
   ```kotlin
   fun main(args: Array<String>) {
 
-  	// tell application where is geckodriver
+  	// tell application where is geckodriver(absolute path!!!)
   	System.setProperty("webdriver.gecko.driver", 		  "/Users/juny/ide/geckodriver")
 
   	// instance firefoxdriver
@@ -51,7 +51,7 @@ Just a demo for web-driver-test used by  gradle、kotlin and selenium.
   	//element.submit
   	searchBtn.submit()
 
-  	// Check the title of the page	
+  	// Check the title of the page
   	println("Page title is: ${driver.title}")
 
   	// Close the browser
